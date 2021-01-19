@@ -6,10 +6,10 @@ function App() {
 
   const [songs] = useState([
     {
-      title: 'Música 1',
-      artist: 'Clayton Rasta',
-      img_src:'./images/song-1.jpg',
-      src:'./music/on-n-on.mp3'
+      title: 'Cabeça de Gelo',
+      artist: 'Cleiton Rasta',
+      img_src:'./images/cleiton.jpg',
+      src:'./music/CabecaDeGelo.mp3'
     },
     {
       title: 'Música 2',

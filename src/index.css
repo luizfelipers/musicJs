@@ -21,7 +21,7 @@ body{
   display: block;
   background-color: rgb(50, 50, 50);
  border-radius: 45px;
-  padding: 50px;
+  padding: 40px;
   box-shadow: 2px 2px 30px black;
   margin-top: -10px;
  
@@ -33,6 +33,7 @@ body{
   text-transform: uppercase;
   font-weight: 400;
   text-align: center;
+  margin-top: ;
 
 }
 
@@ -53,8 +54,9 @@ body{
 .c-player-details .details-img img{
   display: block;
   margin: 0px auto;
-  width: 250px;
-  max-width: 250px;
+  width: 230px;
+  max-width: 230px;
+  height: 230px;
   border-radius: 50%;
   box-shadow: black 2px 2px 20px;
   margin-bottom: -20px;
@@ -67,6 +69,7 @@ body{
   font-size: 25px;
   text-align: center;
   margin-bottom: 10px;
+  padding: 0px;
 
 }
 
@@ -75,14 +78,15 @@ body{
   font-size: 20px;
   text-shadow: 2px 2px 4px black;
   text-align: center;
-  margin-bottom: 10px;
+  margin-bottom: 0px;
 }
 
 .c-player-controls{
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-bottom: 10px;
+  
+  padding: 30px;
 }
 
 .c-player-controls .play-btn{

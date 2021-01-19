@@ -48,10 +48,12 @@ const Player = (props) => {
             {/*Detalhes */}
             <PlayerDetails song={props.songs[props.currentSongIndex]}></PlayerDetails>
             {/*Controles */}
-            <PlayerControl></PlayerControl>
+            <PlayerControl isPlaying={isPlaying} 
+            setIsPlaying={setIsPlaying}
+             SkipSong={SkipSong} ></PlayerControl>
             <p><strong>
-                Next up: 
-                </strong>
+                Next up:  
+                </strong> 
                 {props.songs[props.nextSongIndex].title} by {props.songs[props.nextSongIndex].artist}
             </p>
             
