@@ -56,4 +56,58 @@ body{
   max-width: 250px;
   border-radius: 50%;
   box-shadow: black 2px 2px 20px;
+  margin-bottom: -10px;
+  margin-top: -20px;
+}
+
+.c-player-details .details-title{
+  color:#eee;
+  text-shadow: 1px 2px 10px black;
+  font-size: 25px;
+  text-align: center;
+  margin-bottom: 10px;
+
+}
+
+.c-player-details .details-artist{
+  color: #aaa;
+  font-size: 20px;
+  text-shadow: 2px 2px 4px black;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.c-player-controls{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+.c-player-controls .play-btn{
+  display: flex;
+  margin: 0 30px;
+  padding: 20px;
+  border-radius: 50%;
+  box-shadow: 2px 2px 10px black;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+.c-player-controls .play-btn:hover{
+transform: scale(1.02);
+box-shadow: 3px 3px 20px black;
+}
+.c-player-controls .play-btn:active{
+  background-color:gray;
+  color:white
+}
+
+.c-player-controls .skip-btn{
+  background: none;
+  border: none;
+outline: none;
+cursor: pointer;
+color: #888;
+font-size: 18px;
 }
