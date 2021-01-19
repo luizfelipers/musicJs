@@ -1,5 +1,6 @@
 import React from 'react';
 import PlayerDetails from '../PlayerDetails/index';
+import PlayerControl from '../PlayerControls'
 
 const Player = (props) => {
     return (
@@ -10,6 +11,7 @@ const Player = (props) => {
             {/*Detalhes */}
             <PlayerDetails song={props.song}></PlayerDetails>
             {/*Controles */}
+            <PlayerControl></PlayerControl>
             <p><strong>
                 Next up: 
                 </strong>
